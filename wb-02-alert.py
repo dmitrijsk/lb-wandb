@@ -5,7 +5,7 @@ import wandb
 
 config = {"sample_size": 500, "n_samples": 200, "eps": 0.01}
 
-wandb.init(project="LB1", entity="dmitrijs-modulai", config=config)
+wandb.init(project="LB2", entity="dmitrijs-modulai", config=config)
 
 running_mean = 0
 samples = []

@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     args = parse_args()
 
-    wandb.init(project="LB", entity="dmitrijs-modulai", config=args)
+    wandb.init(project="LB1", entity="dmitrijs-modulai", config=args)
     config = wandb.config
 
     running_mean = 0

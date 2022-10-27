@@ -1,0 +1,22 @@
+program: wb-04-sweep.py
+method: random
+metric:
+  goal: minimize
+  name: bias
+
+parameters:
+
+  n:
+    distribution: q_uniform
+    min: 100
+    max: 500
+    q: 100
+
+  max_iter:
+    value: 200
+  
+command:
+  - ${env}
+  - ${interpreter}
+  - ${program}
+  - ${args}
